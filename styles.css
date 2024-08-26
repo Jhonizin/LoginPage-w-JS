@@ -1,0 +1,159 @@
+body {
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container  {
+    color:rgb(238, 240, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid ;
+    border-radius: 5%;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+
+#login h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: black;
+    font-family: "Jersey 10";
+}
+
+.usuario {
+    color: rgb(255, 255, 255);
+    font-size: 20px ;
+}
+
+.usuario input {
+    backdrop-filter: blur(0px);
+    background-color: rgba(154, 148, 179, 0.2); 
+    border: 2px solid rgb(196, 150, 66);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+ }
+
+ .usuario h2{
+    font-family: "Jersey 10";
+    color: black;
+ }
+
+ .senha h2 {
+    font-family: "Jersey 10";
+    color: black;
+ }
+
+
+.digite-usuario {
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    background-color:rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+}
+
+.senha {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+.senha input {
+    backdrop-filter: blur(0px);
+    background-color: rgba(154, 148, 179, 0.2); 
+    border: 2px solid rgb(196, 150, 66);
+}
+
+.digite-senha {
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 0;
+    backdrop-filter: blur(10px);
+    color:rgb(238, 240, 241);
+}
+
+.check-box {
+    display: flex;
+}
+
+.esqueci-senha {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.esqueci-senha a {
+    text-decoration: none ;
+    color: black;
+    cursor: pointer;
+}
+
+.esqueci-senha a:hover {
+    text-decoration: underline;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    padding:10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: rgb(189, 189, 189);
+    transform: scale(1.1);
+}
+
+.conta {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.registre-se {
+    cursor: pointer;
+
+}
+
+.sem-conta a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left:10px ;
+}
+
+.sem-conta a:hover {
+    text-decoration: underline;
+}
